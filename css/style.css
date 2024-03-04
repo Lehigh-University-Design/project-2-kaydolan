@@ -2,4 +2,52 @@ body {
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
+    background-image: url('../images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    height: 40px;
+    width: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+}
+
+.music {
+  padding-top: 350px;
+}
+
+.windows {
+  display: inline;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.launcher {
+  display: inline;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-left: 600px;
+
+  img {
+    height: 40px;
+    width: 40px;
+    padding-top: 4px;
+  }
+
+  .button {
+    border: none;
+    appearance: none;
+    background-color: inherit;
+  }
+}
