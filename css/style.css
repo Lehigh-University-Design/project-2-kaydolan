@@ -266,3 +266,27 @@ padding: 20px;
     margin-right: 50px;
   }
 }
+
+.center-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  img{
+    height: 312px;
+    width: 683px;
+    margin-left: 280px;
+  }
+}
+
+.narrator-3{
+  border: 5px solid #8c7962;
+  background-color: #a7b892;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 285px;
+  text-align: center;
+  color: #38291e;
+  line-height: 1.2;
+}
