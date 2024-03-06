@@ -11,6 +11,7 @@ body {
 .left-column {
   display: inline;
   flex-direction: column;
+  color: white;
 
   img {
     height: 40px;
